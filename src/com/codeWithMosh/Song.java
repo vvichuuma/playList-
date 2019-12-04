@@ -10,4 +10,8 @@ public class Song {
         this.duration = duration;
     }
 
+    public String toString(){
+        return ("Song name : " + this.name + " and it's duration is : " + this.duration);
+    }
+
 }
